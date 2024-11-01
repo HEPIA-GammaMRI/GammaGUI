@@ -1,0 +1,8 @@
+++addr 1
+++eos 1
+++auto 0
+++eot_enable 0
+++eoi 1
+++mode 1
+++read_tmo_ms 500
+++savecfg 1
