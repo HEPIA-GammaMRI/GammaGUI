@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.timerReadbacks = new System.Windows.Forms.Timer(this.components);
-            this.timerUI = new System.Windows.Forms.Timer(this.components);
+            this.timerUIReadbacks = new System.Windows.Forms.Timer(this.components);
+            this.timerUILaser = new System.Windows.Forms.Timer(this.components);
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panelLaser = new System.Windows.Forms.Panel();
@@ -117,6 +117,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.timerFLIR = new System.Windows.Forms.Timer(this.components);
             this.timerLaserSeq = new System.Windows.Forms.Timer(this.components);
+            this.timerThingSpeak = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panelLaser.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLASER)).BeginInit();
@@ -129,14 +130,14 @@
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // timerReadbacks
+            // timerUIReadbacks
             // 
-            this.timerReadbacks.Tick += new System.EventHandler(this.timer1_Tick);
+            this.timerUIReadbacks.Tick += new System.EventHandler(this.timerUIReadbacks_Tick);
             // 
-            // timerUI
+            // timerUILaser
             // 
-            this.timerUI.Interval = 20;
-            this.timerUI.Tick += new System.EventHandler(this.timerUI_Tick);
+            this.timerUILaser.Interval = 20;
+            this.timerUILaser.Tick += new System.EventHandler(this.timerUILaser_Tick);
             // 
             // pictureBox3
             // 
@@ -275,7 +276,7 @@
             this.label6.Size = new System.Drawing.Size(61, 14);
             this.label6.TabIndex = 64;
             this.label6.Text = "TimeON (s)";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+          
             // 
             // label5
             // 
@@ -848,7 +849,7 @@
             this.buttonPeltFan.TabIndex = 45;
             this.buttonPeltFan.Text = "buttonPeltFan";
             this.buttonPeltFan.UseVisualStyleBackColor = true;
-            this.buttonPeltFan.Click += new System.EventHandler(this.button2_Click);
+            this.buttonPeltFan.Click += new System.EventHandler(this.buttonPeltFan_Click);
             // 
             // labelTempSetpoint
             // 
@@ -1047,6 +1048,11 @@
             this.timerLaserSeq.Interval = 180000;
             this.timerLaserSeq.Tick += new System.EventHandler(this.timerLaserSeq_Tick);
             // 
+            // timerThingSpeak
+            // 
+            this.timerThingSpeak.Interval = 15000;
+            this.timerThingSpeak.Tick += new System.EventHandler(this.timerThingSpeak_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
@@ -1086,8 +1092,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Timer timerReadbacks;
-        private System.Windows.Forms.Timer timerUI;
+        private System.Windows.Forms.Timer timerUIReadbacks;
+        private System.Windows.Forms.Timer timerUILaser;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panelLaser;
@@ -1173,6 +1179,7 @@
         private System.Windows.Forms.TextBox textBoxLasOFFTime;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label labelLasSeqTimeRemaining;
+        private System.Windows.Forms.Timer timerThingSpeak;
     }
 }
 

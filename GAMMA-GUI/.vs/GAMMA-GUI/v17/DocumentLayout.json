@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C63425A3-2F96-475E-BA53-85BF5C1FFDFE}|GAMMA-GUI\\GAMMA-GUI.csproj|C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\gamma-gui\\lasergpib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63425A3-2F96-475E-BA53-85BF5C1FFDFE}|GAMMA-GUI\\GAMMA-GUI.csproj|solutionrelative:gamma-gui\\lasergpib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63425A3-2F96-475E-BA53-85BF5C1FFDFE}|GAMMA-GUI\\GAMMA-GUI.csproj|c:\\users\\gamma_mri\\documents\\github\\gammagui\\gamma-gui\\gamma-gui\\thingspeak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63425A3-2F96-475E-BA53-85BF5C1FFDFE}|GAMMA-GUI\\GAMMA-GUI.csproj|solutionrelative:gamma-gui\\thingspeak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63425A3-2F96-475E-BA53-85BF5C1FFDFE}|GAMMA-GUI\\GAMMA-GUI.csproj|c:\\users\\gamma_mri\\documents\\github\\gammagui\\gamma-gui\\gamma-gui\\gammaarduino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63425A3-2F96-475E-BA53-85BF5C1FFDFE}|GAMMA-GUI\\GAMMA-GUI.csproj|solutionrelative:gamma-gui\\gammaarduino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C63425A3-2F96-475E-BA53-85BF5C1FFDFE}|GAMMA-GUI\\GAMMA-GUI.csproj|c:\\users\\gamma_mri\\documents\\github\\gammagui\\gamma-gui\\gamma-gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C63425A3-2F96-475E-BA53-85BF5C1FFDFE}|GAMMA-GUI\\GAMMA-GUI.csproj|solutionrelative:gamma-gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -11,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{C63425A3-2F96-475E-BA53-85BF5C1FFDFE}|GAMMA-GUI\\GAMMA-GUI.csproj|solutionrelative:gamma-gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C63425A3-2F96-475E-BA53-85BF5C1FFDFE}|GAMMA-GUI\\GAMMA-GUI.csproj|C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\gamma-gui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C63425A3-2F96-475E-BA53-85BF5C1FFDFE}|GAMMA-GUI\\GAMMA-GUI.csproj|c:\\users\\gamma_mri\\documents\\github\\gammagui\\gamma-gui\\gamma-gui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C63425A3-2F96-475E-BA53-85BF5C1FFDFE}|GAMMA-GUI\\GAMMA-GUI.csproj|solutionrelative:gamma-gui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63425A3-2F96-475E-BA53-85BF5C1FFDFE}|GAMMA-GUI\\GAMMA-GUI.csproj|C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\gamma-gui\\lasergpib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63425A3-2F96-475E-BA53-85BF5C1FFDFE}|GAMMA-GUI\\GAMMA-GUI.csproj|solutionrelative:gamma-gui\\lasergpib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63425A3-2F96-475E-BA53-85BF5C1FFDFE}|GAMMA-GUI\\GAMMA-GUI.csproj|C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\gamma-gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63425A3-2F96-475E-BA53-85BF5C1FFDFE}|GAMMA-GUI\\GAMMA-GUI.csproj|solutionrelative:gamma-gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\GAMMA-GUI\\Form1.cs",
               "RelativeDocumentMoniker": "GAMMA-GUI\\Form1.cs",
               "ToolTip": "C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\GAMMA-GUI\\Form1.cs",
               "RelativeToolTip": "GAMMA-GUI\\Form1.cs",
-              "ViewState": "AQIAACgBAAAAAAAAAIAwwEoBAAAAAAAA",
+              "ViewState": "AQIAAEwGAAAAAAAAAAAwwJkCAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-11-21T16:38:45.726Z",
               "IsPinned": true,
@@ -52,52 +56,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\GAMMA-GUI\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "GAMMA-GUI\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\GAMMA-GUI\\Form1.Designer.cs",
               "RelativeToolTip": "GAMMA-GUI\\Form1.Designer.cs",
-              "ViewState": "AQIAAHkEAAAAAAAAAIAwwJEEAAA4AAAA",
+              "ViewState": "AQIAAPUAAAAAAAAAAIAwwBYBAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T09:39:47.542Z",
+              "WhenOpened": "2024-12-02T13:35:26.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "laserGPIB.cs",
-              "DocumentMoniker": "C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\GAMMA-GUI\\laserGPIB.cs",
-              "RelativeDocumentMoniker": "GAMMA-GUI\\laserGPIB.cs",
-              "ToolTip": "C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\GAMMA-GUI\\laserGPIB.cs",
-              "RelativeToolTip": "GAMMA-GUI\\laserGPIB.cs",
-              "ViewState": "AQIAACcBAAAAAAAAAAAYwD4BAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-06-22T15:30:33.312Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\GAMMA-GUI\\Form1.cs",
               "RelativeDocumentMoniker": "GAMMA-GUI\\Form1.cs",
               "ToolTip": "C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\GAMMA-GUI\\Form1.cs [Design]",
               "RelativeToolTip": "GAMMA-GUI\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-11-21T16:38:40.97Z",
+              "WhenOpened": "2024-12-02T13:13:00.124Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\GAMMA-GUI\\Program.cs",
-              "RelativeDocumentMoniker": "GAMMA-GUI\\Program.cs",
-              "ToolTip": "C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\GAMMA-GUI\\Program.cs",
-              "RelativeToolTip": "GAMMA-GUI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "DocumentIndex": 2,
+              "Title": "gammaARDUINO.cs",
+              "DocumentMoniker": "C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\GAMMA-GUI\\gammaARDUINO.cs",
+              "RelativeDocumentMoniker": "GAMMA-GUI\\gammaARDUINO.cs",
+              "ToolTip": "C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\GAMMA-GUI\\gammaARDUINO.cs",
+              "RelativeToolTip": "GAMMA-GUI\\gammaARDUINO.cs",
+              "ViewState": "AQIAAO4AAAAAAAAAAAAYwAQAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-07-10T08:16:08.523Z"
+              "WhenOpened": "2024-12-02T12:41:12.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ThingSpeak.cs",
+              "DocumentMoniker": "C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\GAMMA-GUI\\ThingSpeak.cs",
+              "RelativeDocumentMoniker": "GAMMA-GUI\\ThingSpeak.cs",
+              "ToolTip": "C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\GAMMA-GUI\\ThingSpeak.cs",
+              "RelativeToolTip": "GAMMA-GUI\\ThingSpeak.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T09:38:13.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "laserGPIB.cs",
+              "DocumentMoniker": "C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\GAMMA-GUI\\laserGPIB.cs",
+              "RelativeDocumentMoniker": "GAMMA-GUI\\laserGPIB.cs",
+              "ToolTip": "C:\\Users\\Gamma_MRI\\Documents\\GitHub\\GammaGUI\\GAMMA-GUI\\GAMMA-GUI\\laserGPIB.cs",
+              "RelativeToolTip": "GAMMA-GUI\\laserGPIB.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAwwAwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-06-22T15:30:33.312Z",
+              "EditorCaption": ""
             }
           ]
         }
