@@ -33,7 +33,6 @@
             this.timerUIReadbacks = new System.Windows.Forms.Timer(this.components);
             this.timerUILaser = new System.Windows.Forms.Timer(this.components);
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.panelLaser = new System.Windows.Forms.Panel();
             this.labelLasSeqTimeRemaining = new System.Windows.Forms.Label();
             this.textBoxLasONOFFLoops = new System.Windows.Forms.TextBox();
@@ -148,16 +147,6 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 20;
             this.pictureBox3.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(564, 720);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(442, 18);
-            this.label1.TabIndex = 22;
-            this.label1.Text = "Developed by Ash™ for much cheaper than Angara Technology";
             // 
             // panelLaser
             // 
@@ -276,7 +265,6 @@
             this.label6.Size = new System.Drawing.Size(61, 14);
             this.label6.TabIndex = 64;
             this.label6.Text = "TimeON (s)";
-          
             // 
             // label5
             // 
@@ -1064,7 +1052,6 @@
             this.Controls.Add(this.panelTED);
             this.Controls.Add(this.panelArduino);
             this.Controls.Add(this.panelLaser);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox3);
             this.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -1086,7 +1073,6 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -1095,7 +1081,6 @@
         private System.Windows.Forms.Timer timerUIReadbacks;
         private System.Windows.Forms.Timer timerUILaser;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panelLaser;
         private System.Windows.Forms.Label labelLaserPower;
         private System.Windows.Forms.Button buttonClearErrors;
