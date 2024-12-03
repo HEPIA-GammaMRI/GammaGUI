@@ -1513,11 +1513,21 @@ namespace GAMMA_GUI
         /// </summary>
         private void timerThingSpeak_Tick(object sender, EventArgs e)
         {
-            // Set the ThingSpeak timer interval to 60 seconds (60000 ms)
-            timerThingSpeak.Interval = 60000;
+            
 
             // Determine if the laser is ON or OFF
             int lasON = (labelLaserOut.Text == "Laser Output ON") ? 1 : 0;
+
+            if(lasON == 1)
+            { 
+                // Laser ON - Set the ThingSpeak timer interval to 30 seconds (30000 ms)
+                timerThingSpeak.Interval = 30000;
+            }
+            else
+            {
+                // Laser Off - Set the ThingSpeak timer interval to 5 minutes 
+                timerThingSpeak.Interval = 300000;
+            }
 
             // Send laser data to ThingSpeak (including laser temperature, current, power, etc.)
             sendDataTS(
@@ -1615,6 +1625,6 @@ namespace GAMMA_GUI
             pictureBoxFLIR.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
-
+        
     }
 }
